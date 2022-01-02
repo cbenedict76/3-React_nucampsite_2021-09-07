@@ -1,5 +1,4 @@
-import React, { COMPONENT } from "react";
-import { Component } from "react";
+import React, { Component } from "react";
 import {
   Nav,
   Navbar,
@@ -10,8 +9,6 @@ import {
   Jumbotron,
 } from "reactstrap";
 import { NavLink } from "react-router-dom";
-
-// import { findAllByTestId } from "@testing-library/react";
 
 class Header extends Component {
   constructor(props) {
@@ -49,8 +46,8 @@ class Header extends Component {
                 src="/assets/images/logo.png"
                 height="30"
                 width="30"
-                alt="NuCamp Lgo"
-              />
+                alt="NuCamp Logo"
+              />{" "}
             </NavbarBrand>
             <NavbarToggler onClick={this.toggleNav} />
             <Collapse isOpen={this.state.isNavOpen} navbar>
