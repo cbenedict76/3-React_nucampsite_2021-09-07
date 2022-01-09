@@ -1,12 +1,7 @@
 import React, { Component } from "react";
 import {
-  Breadcrumb,
-  BreadcrumbItem,
-  Button,
-  Label,
-  Col,
-  Row,
-} from "reactstrap";
+  Breadcrumb, BreadcrumbItem, Button,
+  Label, Col, Row, } from "reactstrap";
 import { Link } from "react-router-dom";
 import { Control, LocalForm } from "react-redux-form";
 
@@ -93,7 +88,10 @@ class Contact extends Component {
                   First Name
                 </Label>
                 <Col md={10}>
-                  <Control.text model=".firstName" id="firstName" name="firstName"
+                  <Control.text
+                    model=".firstName"
+                    id="firstName"
+                    name="firstName"
                     placeholder="First Name"
                     className="form-control"
                   />
@@ -107,7 +105,10 @@ class Contact extends Component {
                   Last Name
                 </Label>
                 <Col md={10}>
-                  <Control.text model= ".lastName" id= "lastName" name= "lastName"
+                  <Control.text
+                    model=".lastName"
+                    id="lastName"
+                    name="lastName"
                     placeholder="Last Name"
                     className="form-control"
                   />
@@ -121,7 +122,10 @@ class Contact extends Component {
                   Phone
                 </Label>
                 <Col md={10}>
-                  <Control.text model=".phoneNum" id="phoneNum" name="phoneNum"
+                  <Control.text
+                    model=".phoneNum"
+                    id="phoneNum"
+                    name="phoneNum"
                     placeholder="Phone number"
                     className="form-control"
                   />
@@ -135,7 +139,10 @@ class Contact extends Component {
                   Email
                 </Label>
                 <Col md={10}>
-                  <Control.text model=".email" id="email" name="email"
+                  <Control.text
+                    model=".email"
+                    id="email"
+                    name="email"
                     placeholder="Email"
                     className="form-control"
                   />
@@ -148,7 +155,9 @@ class Contact extends Component {
                 <Col md={{ size: 4, offset: 2 }}>
                   <div className="form-check">
                     <Label check>
-                      <Control.checkbox model=".agree" name="agree"
+                      <Control.checkbox
+                        model=".agree"
+                        name="agree"
                         className="form-check-input"
                       />{" "}
                       <strong>May we contact you?</strong>
@@ -156,8 +165,11 @@ class Contact extends Component {
                   </div>
                 </Col>
                 <Col md={4}>
-                  <Control.select model=".contactType" name="contactType"
-                        className="form-control">
+                  <Control.select
+                    model=".contactType"
+                    name="contactType"
+                    className="form-control"
+                  >
                     <option>By Phone</option>
                     <option>By Email</option>
                   </Control.select>
@@ -171,7 +183,10 @@ class Contact extends Component {
                   Your Feedback
                 </Label>
                 <Col md={10}>
-                  <Control.textarea model=".feedback" id="feedback" name="feedback"
+                  <Control.textarea
+                    model=".feedback"
+                    id="feedback"
+                    name="feedback"
                     rows="12"
                     className="form-control"
                   />
