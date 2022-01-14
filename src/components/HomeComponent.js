@@ -1,3 +1,4 @@
+// 20220113 - Week Four - React Redux Form Validation, begin second half
 import React from "react";
 import { Card, CardImg, CardText, CardBody, CardTitle } from "reactstrap";
 

@@ -1,3 +1,4 @@
+// 20220113 - Week Four - React Redux Form Validation, begin second half
 import { CAMPSITES } from '../shared/campsites';
 import { COMMENTS } from '../shared/comments';
 import { PARTNERS } from '../shared/partners';
